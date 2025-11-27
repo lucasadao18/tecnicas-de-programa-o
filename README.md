@@ -1,48 +1,53 @@
-# 🚀 Projeto Final - Lucas Gonçalves - Técnicas de Programação
-
-## 📄 Descrição do Trabalho
-
-Este projeto foi desenvolvido como requisito final para a disciplina de **Técnicas de Programação**. O objetivo principal foi criar um sistema de gerenciamento para **[Breve descrição do que o seu projeto faz. Ex: um sistema de controle de estoque]**, aplicando os conceitos de CRUD (Create, Read, Update, Delete) na manipulação de **[Especifique a entidade que sofre o CRUD. Ex: registros de produtos]**.
-
-## ⚙️ Requisitos
-
-Para rodar este projeto, você precisará ter instalado:
-
-* **Linguagem de Programação:** [Nome e Versão da Linguagem. Ex: Python 3.10, PHP 8.2]
-* **Banco de Dados (Se houver):** [Ex: MySQL, SQLite]
-
-## 🛠️ Instruções de Instalação
-
-Siga os passos para configurar o ambiente:
-
-1.  **Clone o Repositório:**
-    ```bash
-    git clone [Link do seu repositório no GitHub]
-    cd [Nome da pasta do projeto]
-    ```
-
-2.  **Instale as Dependências (Se houver):**
-    ```bash
-    [Comando para instalar dependências. Ex: pip install -r requirements.txt, ou composer install]
-    ```
-
-3.  **Configuração do Banco de Dados (Se aplicável):**
-    ```bash
-    [Instruções de configuração do banco de dados, se for o caso.]
-    ```
-
-## ▶️ Passos para Execução
-
-Após a instalação, use o comando abaixo para iniciar a aplicação:
-
-1.  **Inicie a Aplicação:**
-    ```bash
-    [Comando para iniciar o projeto. Ex: python main.py, ou php -S localhost:8000]
-    ```
-
-2.  **Acesso:**
-    * A aplicação pode ser acessada via **[Especifique. Ex: Linha de Comando (Console) ou Navegador Web em http://localhost:[Porta]]**.
+# 💻 tecnicas-de-programação
+Aulas e Projetos da Disciplina de Técnicas de Programação
 
 ---
 
-**Lembre-se:** A documentação complementar (Pseudocódigo, Fluxograma e Especificação Algorítmica) deve ser anexada separadamente na sua entrega.
+## 📖 Sobre o Repositório
+
+Este repositório tem como objetivo centralizar e documentar todas as atividades, trabalhos e projetos desenvolvidos durante a disciplina de **Técnicas de Programação**.
+
+* **Aluno:** Lucas Gonçalves
+* **Curso:** Engenharia de Software
+* **Semestre:** Segundo
+* **Instituição:** Universidade do Distrito Federal - UDF
+
+O propósito é aplicar os conceitos teóricos aprendidos em aula em soluções práticas e servir como portfólio dos meus progressos na área de desenvolvimento de software.
+
+---
+
+## 🎯 Conteúdo da Disciplina
+
+A disciplina de Técnicas de Programação aborda conceitos fundamentais para o desenvolvimento de software. Os principais tópicos estudados e aplicados neste repositório incluem:
+
+* **Paradigmas de Programação** (incluindo Programação Orientada a Objetos - POO).
+* **Estruturas de Dados e Algoritmos**.
+* **Qualidade de Código** (Princípios SOLID, DRY, KISS).
+* **Testes de Software**.
+* **Controle de Versão** (Git & GitHub).
+* **Padrões de Projeto (Design Patterns)**.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+As principais ferramentas e linguagens utilizadas nos projetos e atividades são:
+
+* **Linguagens:** `Python`, `PHP`, `HTML`, `CSS`, `JavaScript`
+* **Banco de Dados:** `MySQL`
+* **Frameworks/Bibliotecas:** `Bootstrap`
+* **Sistema de Controle de Versão:** `Git & GitHub`
+
+---
+
+## 📂 Estrutura e Execução
+
+Cada pasta neste repositório representa uma atividade ou módulo específico da disciplina.
+
+> As instruções detalhadas para compilar e executar cada projeto encontram-se no `README.md` dentro de sua respectiva pasta.
+
+Para clonar o repositório e começar:
+
+```bash
+git clone [https://github.com/lucasgoncalves/tecnicas-de-programacao.git](https://github.com/lucasgoncalves/tecnicas-de-programacao.git)
+cd tecnicas-de-programacao
