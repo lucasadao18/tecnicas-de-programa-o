@@ -1,0 +1,442 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Wamberg7/TecnicasdeDesenvolvimento-de-Algoritmo_TecnicasdeProgramacao/blob/main/operadores_eng_soft_6nov_wamberg.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Operadores\n"
+      ],
+      "metadata": {
+        "id": "TKePptWibrl3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vMBuPMIqbl1D",
+        "outputId": "2054c5a4-4b3e-4c3a-85ea-82a79734ee54"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "8"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ],
+      "source": [
+        "2**3"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "23//7"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZD4-syFCcHSv",
+        "outputId": "f4a2b303-883f-402a-e670-4cd046a8a410"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "23%7"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C_uqiUftcM6W",
+        "outputId": "ab47bdb1-25ec-4b8c-c524-fabf5e2dd904"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "2"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5+5*5 /5"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "U24tXMEMcuf_",
+        "outputId": "3f492d40-6980-4fa3-c2c3-a0ebeb8af91c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "10.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "4**(4/2)+7"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "98sHP5-YecYf",
+        "outputId": "6d34f40c-ca82-4e9c-9bc2-1b5f7d25a017"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "23.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Tarefa 1\n",
+        "a = int(input(\"informe um numero: \"))\n",
+        "b = int(input(\"informe o segundo numero: \"))\n",
+        "a+b"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BP-xjhsMf7lI",
+        "outputId": "cecc3e0c-bb55-4879-ab65-3cf2eb5f799b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "informe um numero: 12\n",
+            "informe o segundo numero: 21\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "33"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Tarefa 2\n",
+        "n1 = float(input(\"informe a primeira nota: \"))\n",
+        "n2 = float(input(\"informe a segunda nota: \"))\n",
+        "media = (n1+n2)/2\n",
+        "print(\"media: \", media)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TRi8Lu62s9at",
+        "outputId": "c3a55768-fa61-4ddd-f767-f2f6272dfdc7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "informe a primeira nota: 2\n",
+            "informe a segunda nota: 6\n",
+            "media:  4.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Tarefa 3\n",
+        "nome= \"berg\"\n",
+        "print(f\"Olá, {nome}!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mCvH1q82tQUl",
+        "outputId": "a5de382b-e7bf-4aba-85ab-ab252b5dbe27"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá, berg!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Tarefa 4\n",
+        "nome_usuario = input(\"informe seu nome: \")\n",
+        "ano_nascimento = input(\"informe seu ano de nascimento: \")\n",
+        "print(f\"{nome_usuario} nasceu em {ano_nascimento}.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MXNNnbtGte3E",
+        "outputId": "e64ca626-ff4d-4656-9a55-00ed79a7982c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "informe seu nome: berg\n",
+            "informe sua data de nascimento: 2003\n",
+            "berg nasceu em 2003.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Tarefa 5\n",
+        "nome_usuario = input(\"informe seu nome: \")\n",
+        "print(f\"Olá, {nome_usuario}!\")\n",
+        "ano_nascimento = input(\"informe seu ano de nascimento: \")\n",
+        "idade= 2025 - int(ano_nascimento)\n",
+        "print(f\"{nome_usuario} tem {idade}, {nome_usuario * idade}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_g2Na0Qit-YM",
+        "outputId": "376131aa-445d-4881-8992-caef2ebe0530"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "informe seu nome: berg\n",
+            "Olá, berg!\n",
+            "informe seu ano de nascimento: 2004\n",
+            "berg tem 21, bergbergbergbergbergbergbergbergbergbergbergbergbergbergbergbergbergbergbergbergberg\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Tarefa 6\n",
+        "n1 = float(input(\"informe a primeira nota: \"))\n",
+        "n2 = float(input(\"informe a segunda nota: \"))\n",
+        "n3 = float(input(\"informe a terceira nota\"))\n",
+        "media = (n1+n2+n3)/3\n",
+        "print(\"media: \", media)"
+      ],
+      "metadata": {
+        "id": "jIY4Py63wSSd",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "74562f6e-7ebc-4ca8-a38c-be4ec5db356e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "informe a primeira nota: 2\n",
+            "informe a segunda nota: 3\n",
+            "informe a terceira nota4\n",
+            "media:  3.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "543# Tarefa 7\n",
+        "nota1 = float(input(\"Informe a primeira nota: \"))\n",
+        "peso1 = float(input(\"Informe o peso da primeira nota: \"))\n",
+        "nota2 = float(input(\"Informe a segunda nota: \"))\n",
+        "peso2 = float(input(\"Informe o peso da segunda nota: \"))\n",
+        "nota3 = float(input(\"Informe a terceira nota: \"))\n",
+        "peso3 = float(input(\"Informe o peso da terceira nota: \"))\n",
+        "\n",
+        "media_ponderada = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3)\n",
+        "\n",
+        "print(f\"A média ponderada é: {media_ponderada}\")"
+      ],
+      "metadata": {
+        "id": "oiCPY65bw46t",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "cdf09573-d750-4ca0-cff7-49f25eae51f0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Informe a primeira nota: 231\n",
+            "Informe o peso da primeira nota: 12\n",
+            "Informe a segunda nota: 12\n",
+            "Informe o peso da segunda nota: 23\n",
+            "Informe a terceira nota: 43\n",
+            "Informe o peso da terceira nota: 43\n",
+            "A média ponderada é: 62.782051282051285\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Tarefa 8\n",
+        "numero = input(\"Informe um número: \")\n",
+        "soma_digitos = sum(int(digito) for digito in numero)\n",
+        "print(f\"A soma dos dígitos é: {soma_digitos}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "R8pSD_3yn-Gd",
+        "outputId": "0032b05f-7fde-4314-924a-5c696bcb39a2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Informe um número: 10\n",
+            "A soma dos dígitos é: 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Tarefa 9\n",
+        "palavra = input(\"Informe uma palavra: \")\n",
+        "palavra_invertida = palavra[::-1]\n",
+        "print(f\"A palavra invertida é: {palavra_invertida}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "G7fPtlNgoSec",
+        "outputId": "9c16cb94-29b7-4010-9e36-7f0c0063408f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Informe uma palavra: berg\n",
+            "A palavra invertida é: greb\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
